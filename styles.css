@@ -1,0 +1,159 @@
+html,
+body {
+  height: 100%;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 0.3em;
+  text-align: center;
+  background: rgb(208, 221, 221);
+}
+
+@keyframes example {
+  0% {
+    left: 80%;
+    top: 150%;
+    font-size: 50px;
+    margin-bottom: 2000px;
+  }
+  70% {
+    left: 80%;
+    top: 150%;
+    font-size: 50px;
+    margin-bottom: 2000px;
+  }
+  90% {
+    left: 50%;
+    top: 150%;
+    font-size: 100px;
+    margin-bottom: 2000px;
+  }
+
+  90% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+header {
+  margin: 50px;
+}
+body {
+  margin: 50px;
+}
+footer {
+  margin: 50px;
+}
+.c-site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.nav-top {
+  margin: 0px 0px;
+}
+.nav-btn {
+  border: none;
+  background-color: #5f9ea0;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 0px 0px;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 0.1em;
+}
+.nav-btn:hover {
+  background-color: black;
+}
+
+.dvider {
+  margin: 50px 20px;
+  padding: 2px;
+  border-radius: 10px;
+  background-color: #5f9ea0;
+  border: none;
+}
+.sub-dvider {
+  padding: 2px;
+  border-radius: 10px;
+  background-color: #5f9ea0;
+  border: none;
+  width: 50%;
+  display: block;
+  margin: 50px auto;
+}
+
+.pp {
+}
+
+.pp-img {
+  width: 30%;
+  border-radius: 100%;
+  display: block;
+  margin: 30px auto;
+  border: 4px solid #5f9ea0;
+}
+
+.about-me-p {
+  text-align: justify;
+  width: 50%;
+  letter-spacing: 0.15em;
+  line-height: 2em;
+  margin: 10px auto;
+}
+#about-me-p1 {
+  text-align: center;
+}
+.headers {
+  margin: 30px;
+  font-size: 25px;
+}
+.headers:hover {
+  text-shadow: black 0px 0 10px;
+  color: white;
+}
+.logo:hover {
+  text-shadow: black 0px 0 10px;
+  color: white;
+}
+
+iframe {
+  border-radius: 30px;
+  border: 4px solid #5f9ea0;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  text-decoration: underline;
+  color: #5f9ea0;
+}
+.link:hover {
+  color: white;
+  background-color: #5f9ea0;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.footer-last {
+  text-align: center;
+  letter-spacing: 0.15em;
+  line-height: 0.5em;
+  margin: 0px;
+}
+footer {
+  margin: 30px;
+}
